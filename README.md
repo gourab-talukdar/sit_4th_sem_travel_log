@@ -1,6 +1,14 @@
 # Travel Log App
 
-<!-- ![Travel Log App](link_to_your_image.png) -->
+![Home Page | Travel Log App](https://redskyeducations.co.in/images/img1.jpeg)
+![Discover | Travel Log App](https://redskyeducations.co.in/images/img2.jpeg)
+![Sign UP | Travel Log App](https://redskyeducations.co.in/images/img3.jpeg)
+![OTP Verify | Travel Log App](https://redskyeducations.co.in/images/img4.jpeg)
+![Login | Travel Log App](https://redskyeducations.co.in/images/img5.jpeg)
+![Dashboard | Travel Log App](https://redskyeducations.co.in/images/img6.jpeg)
+![Add New Trip Details | Travel Log App](https://redskyeducations.co.in/images/img7.jpeg)
+![All Travel Data | Travel Log App](https://redskyeducations.co.in/images/img8.jpeg)
+![Upcoming Trips | Travel Log App](https://redskyeducations.co.in/images/img9.jpeg)
 
 ## Description
 
@@ -60,9 +68,15 @@ The Travel Log App is a web application built with React that allows users to ke
 - View your logged travel entries on the dashboard.
 - Edit or delete existing entries as needed.
 
+## Developer
+- Gourab Talukdar ( https://www.linkedin.com/in/gourab-talukdar/ )
+
+## Project Head
+- Arpi Saha ( https://www.linkedin.com/in/arpi-saha/ )
+
+## Report Writer
+- Rahul Saha ( https://www.linkedin.com/in/rahul-saha-92a616291/ )
+
 ## Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests for any enhancements or bug fixes.
-
-## Developers
-- Gourab Talukdar ( https://www.linkedin.com/in/gourab-talukdar/ )
