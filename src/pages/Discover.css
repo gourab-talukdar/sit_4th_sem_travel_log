@@ -1,0 +1,35 @@
+.discover-all-track li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.discover-all-track .track_dot{
+    display: inline-block;
+    border: 2px solid var(--brd-color);
+    height: 18px;
+    width: 18px;
+    margin-right: 10px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.discover-all-track .track_dot::after{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 28px;
+    width: 2px;
+    background-color: var(--brd-color);
+}
+.discover-all-track li:last-child .track_dot::after{
+    content: '';
+    height: 0;
+    width: 0;
+    display: none;
+}
+.discover-all-track .text{
+    color: var(--brd-color);
+}

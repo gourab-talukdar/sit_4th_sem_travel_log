@@ -1,0 +1,192 @@
+/* Googlefont Poppins CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  /* border-radius: 0.4rem; */
+}
+::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+  border-radius: 0.4rem;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+/* hide input-> number arrow... Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+:root{
+  /* ===== Colors ===== */
+  --primary-color: #0E4BF1;
+  --royal-blue: #0E4BF1;
+  --primary-color-dark: #0a2558;
+  --panel-color: #FFF;
+  --text-color: #000;
+  --black-light-color: #707070;
+  --border-color: #e6e5e5;
+  --toggle-color: #DDD;
+  --box1-color: #90caf9;
+  --box2-color: #FFE6AC;
+  --box3-color: #E7D1FC;
+  --box4-color: #ef9a9a;
+  --title-icon-color: #fff;
+  --white: #fff;
+  
+  /* ====== Transition ====== */
+  --tran-05: all 0.5s ease;
+  --tran-03: all 0.3s ease;
+  --tran-03: all 0.2s ease;
+}
+.hidden{
+  visibility: hidden !important;
+}
+.d-none{
+  display: none;
+}
+/* .d-oflex{
+  display: flex;
+}
+.d-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.justify-between{
+  justify-content: space-between;
+}
+.justify-center{
+  justify-content: center;
+}
+.align-center{
+  align-items: center;
+}
+.no-wrap{
+  white-space: nowrap;
+}
+.disabled{
+  cursor: not-allowed !important;
+  color: var(--black-light-color) !important;
+}
+.cursor-pointer{
+  cursor: pointer !important;
+}
+.no-user-select{
+  user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+}
+
+
+.alert-container{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: fixed;
+  right: -110%;
+  transition: right 0.5s ease;
+}
+.alert-container.top{
+  top: 2rem;
+}
+.alert-container.bottom{
+  bottom: 1rem;
+}
+.alert-container.active{
+  right: 1rem;
+}
+
+.overflowY-scroll{
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+
+
+.my-primary-btn{
+  background-color: #0085db;
+  color: #fff;
+  transition: all 0.3s ease;
+  /* background-image: linear-gradient(to right, #00b4db, #0083b0);; */
+}
+.my-primary-btn:hover{
+  background-color: #0085db;
+  color: #fff;
+  box-shadow: 0 0 12px 0 rgba(0, 133, 219, 0.4);
+}
+
+.travel_status{
+  border-radius: 2rem;
+  padding: 4px 1rem;
+  font-size: 0.9rem;
+}
+.Upcoming{
+  background-color: rgba(var(--bs-warning-rgb),1) !important;
+}
+.Completed{
+  background-color: rgba(var(--bs-success-rgb),1) !important;
+  color: rgba(var(--bs-white-rgb),1);
+}
+.No.Update{
+  background-color: rgba(var(--bs-secondary-rgb),1) !important;
+  color: rgba(var(--bs-white-rgb),1);
+}
+.Cancelled{
+  background-color: rgba(var(--bs-danger-rgb),1) !important;
+  color: rgba(var(--bs-white-rgb),1);
+}
+.Ongoing{
+  background-color: rgba(var(--bs-primary-rgb),1) !important;
+  color: rgba(var(--bs-white-rgb),1);
+}
+
+/* filter box style  */
+.filter-box{
+  position: absolute;
+  right: 2rem;
+  top: 0;
+  background-color: #fff;
+  border-radius: 0.4rem;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.1);
+  padding: 0 1.5rem;
+  padding-top: 1.2rem;
+  padding-bottom: 2rem;
+  width: 100%;
+  max-width: 500px;
+  max-height: 70vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  transition: all 0.3s ease;
+  z-index: 5;
+}
+.filter-box::-webkit-scrollbar {
+  width: 5px;
+}
+/* Track */
+.filter-box::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 0.4rem;
+}
+
+/* Handle */
+.filter-box::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+  border-radius: 0.4rem;
+}
+/* Handle on hover */
+.filter-box::-webkit-scrollbar-thumb:hover {
+background: #888;
+}

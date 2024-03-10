@@ -1,0 +1,30 @@
+#OTP-Verify .otp-field {
+  flex-direction: row;
+  column-gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#OTP-Verify .otp-field input {
+  height: 45px;
+  /* width: 42px; */
+  width: 300px;
+  border-radius: 6px;
+  outline: none;
+  font-size: 1.125rem;
+  text-align: center;
+  border: 1px solid #ddd;
+  letter-spacing: 22px;
+}
+#OTP-Verify .otp-field input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+#OTP-Verify .otp-field input::-webkit-inner-spin-button,
+#OTP-Verify .otp-field input::-webkit-outer-spin-button {
+  display: none;
+}
+
+#OTP-Verify .resend {
+  font-size: 13px;
+}

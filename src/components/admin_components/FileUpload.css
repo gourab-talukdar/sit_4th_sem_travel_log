@@ -1,0 +1,140 @@
+.wrapper{
+  max-width: 700px;
+  width: 100%;
+  background: #fff;
+  border-radius: 8px;
+  padding: 40px;
+  margin: 0 auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
+}
+.wrapper header {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+}
+.wrapper form{
+  height: 167px;
+  display: flex;
+  cursor: pointer;
+  margin: 30px 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 2px dashed #6990F2;
+}
+form :where(span.material-icons, p){
+  color: #6990F2;
+}
+form span.material-icons{
+  font-size: 50px;
+}
+form p{
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+section .row{
+  margin-bottom: 10px;
+  background: #E9F0FF;
+  list-style: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section .row span.material-icons{
+  color: #6990F2;
+  font-size: 30px;
+}
+section .details span{
+  font-size: 14px;
+}
+
+.selected-files-area .row .content{
+  display: flex;
+  align-items: center;
+}
+.selected-files-area .row .details{
+  display: flex;
+  margin-left: 15px;
+  flex-direction: column;
+}
+.upload-btn{
+  display: flex;
+  align-items: center;
+  background-color: #6990F2;
+  padding: 0.3rem 1.1rem;
+  border: 1px solid #6990F2;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  transition: all 0.3s ease;
+}
+.upload-btn span.material-icons{
+  color: #fff !important;
+  font-size: 28px !important;
+  margin-left: 6px;
+}
+.upload-btn:hover{
+  background-color: #fff;
+  color: #6990F2;
+  border-color: #6990F2;
+}
+.upload-btn:hover span.material-icons{
+  color: #6990F2 !important;
+}
+
+.progress-area .row .content{
+  width: 100%;
+  margin-left: 15px;
+}
+.progress-area .details{
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+  justify-content: space-between;
+}
+.progress-area .content .progress-bar{
+  height: 6px;
+  width: 100%;
+  margin-bottom: 4px;
+  background: #fff;
+  border-radius: 30px;
+}
+.content .progress-bar .progress{
+  height: 100%;
+  width: 0%;
+  background: #6990F2;
+  border-radius: inherit;
+}
+
+.uploaded-area{
+  max-height: 232px;
+  overflow-y: scroll;
+}
+.uploaded-area.onprogress{
+  max-height: 150px;
+}
+.uploaded-area::-webkit-scrollbar{
+  width: 0px;
+}
+.uploaded-area .row .content{
+  display: flex;
+  align-items: center;
+}
+.uploaded-area .row .details{
+  display: flex;
+  margin-left: 15px;
+  flex-direction: column;
+}
+.uploaded-area .row .details .size{
+  color: #404040;
+  font-size: 11px;
+}
+.uploaded-area i.fa-check{
+  font-size: 16px;
+}
+

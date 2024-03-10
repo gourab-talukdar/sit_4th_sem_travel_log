@@ -1,0 +1,131 @@
+nav#top-nav{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background: #fff;
+    position: fixed;
+    width: calc(100% - 240px);
+    left: 240px;
+    z-index: 100;
+    padding: 0 20px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease;
+  }
+nav#top-nav  .sidebar-button-container{
+  width: 50%;
+}
+ nav#top-nav .sidebar-button{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  nav#top-nav .sidebar-button #sidebar-menu-btn{
+    font-size: 35px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: none;
+  }
+ nav#top-nav .search-box{
+    position: relative;
+    height: 50px;
+    max-width: 550px;
+    width: 100%;
+    margin: 0 20px;
+  }
+  nav#top-nav .search-box input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    background: #F5F6FA;
+    border: 2px solid #EFEEF1;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 0 15px;
+  }
+  nav#top-nav .search-box .search-icon{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: #2697FF;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 4px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    transition: all 0.4 ease;
+  }
+
+ nav#top-nav .profile-details-container{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+ }
+ nav#top-nav .profile-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F5F6FA;
+    border: 2px solid #EFEEF1;
+    border-radius: 0.4rem;
+    padding: 8px 15px;
+  }
+  nav#top-nav .profile-details span.material-icons{
+   color: #081d45;
+   font-size: 1.6rem;
+  }
+  nav#top-nav .profile-details .admin_name{
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    margin-left: 8px;
+    white-space: nowrap;
+  }
+  
+  nav#top-nav abbr{
+    text-decoration: none;
+    margin-left: 1rem;
+  }
+  nav#top-nav .logout-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #0d47a1;
+    border-radius: 0.4rem;
+    padding: 8px 10px;
+    background-color: #F5F6FA;
+    text-decoration: none;
+    color: #081d45;
+    transition: all ease 0.3s;
+  }
+  nav#top-nav .logout-btn:hover{
+    background-color: #0d47a1;
+    color: #fff;    
+  }
+  nav#top-nav .logout-btn span.material-icons{
+    font-size: 1.2rem;
+  }
+  
+
+  
+  /* Responsive Media Query */
+
+  @media (max-width: 920px) {
+    nav#top-nav{
+      width: 100%;
+      left: 0;
+      height: 70px;
+    }
+    nav#top-nav .sidebar-button #sidebar-menu-btn{
+      display: block;
+    }
+  }
+  @media (max-width: 290px){
+    nav#top-nav .profile-details{
+      display: none;
+    }
+  }

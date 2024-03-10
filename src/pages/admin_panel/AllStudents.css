@@ -1,0 +1,59 @@
+@media print {
+    div.sidebar{
+        display: none;
+    }
+    .right-section nav#top-nav{
+        display: none;
+    }
+    .right-section{
+        width: 100% !important;
+        left: 0 !important;
+    }
+    section.right-section .right-section-content {
+        position: static;
+        padding: 0;
+    }
+    .table-header{
+        justify-content: center !important;
+        margin: 0 !important;
+        margin-bottom: 1rem !important;
+    }
+    .table-header span.material-icons{
+        display: none !important;
+    }
+    .select-box-container{
+        display: none;
+    }
+    .table-container{
+        padding: 0 !important;
+    }
+    .table-container .loading-container{
+        display: none !important;
+        margin: 0 !important;
+    }
+
+    .table-container thead tr th#DOB,
+    .table-container tr td[data-label='DOB'],
+    .table-container thead tr th#Board,
+    .table-container tr td[data-label='Board'],
+    .table-container thead tr th#Edit,
+    .table-container tr td[data-label='Edit'],
+    .table-container thead tr th#Delete,
+    .table-container tr td[data-label='Delete'],
+    .table-container thead tr th#Print,
+    .table-container tr td[data-label='Print'],
+    .table-container thead tr th#Share,
+    .table-container tr td[data-label='Share'],
+    .table-container thead tr th#Action,
+    .table-container tr td[data-label='ACTION']{
+        display: none !important;
+    } 
+
+
+    .filter-box{
+        display: none;
+    }
+    .table-container .row-limit-container{
+        display: none;
+    }
+}

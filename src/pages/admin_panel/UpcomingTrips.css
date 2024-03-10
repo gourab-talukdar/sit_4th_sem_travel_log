@@ -1,0 +1,43 @@
+.upcoming-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.upcoming-box .path-circle{
+    height: 52px;
+    width: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 0.5rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    border-radius: 50%;
+    font-size: 0.9rem;
+    line-height: normal;
+}
+.upcoming-box .path-circle small{
+    font-size: 0.7rem;
+}
+.path-circle.start{
+    /* background-color: rgba(var(--bs-success-rgb), 0.5); */
+    border: 1px dashed rgba(var(--bs-success-rgb), 1);
+    margin-right: 100px;
+    position: relative;
+}
+.path-circle.start::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 55px;
+    height: 2px;
+    width: 90px;
+    background-color: rgba(var(--bs-success-rgb), 0.5);
+}
+.path-circle.end{
+    /* background-color: rgba(var(--bs-success-rgb), 0.5); */
+    border: 1px dashed rgba(var(--bs-danger-rgb), 1);
+}
