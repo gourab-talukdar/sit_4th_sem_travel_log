@@ -1,7 +1,3 @@
-Sure, here's an example README.md file for a travel log app built with React:
-
----
-
 # Travel Log App
 
 <!-- ![Travel Log App](link_to_your_image.png) -->
