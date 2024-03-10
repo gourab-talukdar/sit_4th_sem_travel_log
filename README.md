@@ -1,14 +1,16 @@
 # Travel Log App
 - Capture Your Journeys & Create Memories
-![Home Page | Travel Log App](https://redskyeducations.co.in/images/img1.jpeg)
-![Discover | Travel Log App](https://redskyeducations.co.in/images/img2.jpeg)
-![Sign UP | Travel Log App](https://redskyeducations.co.in/images/img3.jpeg)
-![OTP Verify | Travel Log App](https://redskyeducations.co.in/images/img4.jpeg)
-![Login | Travel Log App](https://redskyeducations.co.in/images/img5.jpeg)
-![Dashboard | Travel Log App](https://redskyeducations.co.in/images/img6.jpeg)
-![Add New Trip Details | Travel Log App](https://redskyeducations.co.in/images/img7.jpeg)
-![All Travel Data | Travel Log App](https://redskyeducations.co.in/images/img8.jpeg)
-![Upcoming Trips | Travel Log App](https://redskyeducations.co.in/images/img9.jpeg)
+
+
+![Home Page | Travel Log App](https://redskyeducations.co.in/images/travel_log/img1.jpeg)
+![Discover | Travel Log App](https://redskyeducations.co.in/images/travel_log/img2.jpeg)
+![Sign UP | Travel Log App](https://redskyeducations.co.in/images/travel_log/img3.jpeg)
+![OTP Verify | Travel Log App](https://redskyeducations.co.in/images/travel_log/img4.jpeg)
+![Login | Travel Log App](https://redskyeducations.co.in/images/travel_log/img5.jpeg)
+![Dashboard | Travel Log App](https://redskyeducations.co.in/images/travel_log/img6.jpeg)
+![Add New Trip Details | Travel Log App](https://redskyeducations.co.in/images/travel_log/img7.jpeg)
+![All Travel Data | Travel Log App](https://redskyeducations.co.in/images/travel_log/img8.jpeg)
+![Upcoming Trips | Travel Log App](https://redskyeducations.co.in/images/travel_log/img9.jpeg)
 
 ## Description
 
