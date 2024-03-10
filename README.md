@@ -1,5 +1,5 @@
 # Travel Log App
-
+- Capture Your Journeys & Create Memories
 ![Home Page | Travel Log App](https://redskyeducations.co.in/images/img1.jpeg)
 ![Discover | Travel Log App](https://redskyeducations.co.in/images/img2.jpeg)
 ![Sign UP | Travel Log App](https://redskyeducations.co.in/images/img3.jpeg)
